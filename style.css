@@ -1,36 +1,61 @@
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-.my-4{
-    margin-top: 0 !important;
-    }
-#back {
-    /* background-image: url(pexels-pixabay-531756.jpg); */
-}
-.navbar{
-    padding: 0;
-    height: 60px;
-}
-.card-header {
-    background-color:rgb(240, 242, 244) !important;
-    color: black !important;
-}
-#card-body1{
-    background-image: url("photo-1470176519524-3c2f481c8c9c.jpeg");
-    background-size: fit;
-    background-position-y: 400px;
-}
-#card-body2{
-    background-image: url("DCMEX-Cloud-Formation-1280px.jpg");
-    background-size: fit;
-    background-position-y: 400px;
-    
-}
-#card-body3{
-    background-image: url("photo-1470176519524-3c2f481c8c9c.jpeg");
-    background-size: fit;
-    background-position-y: 400px;
-
-
-}
+/* Overall body styling */
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-brand, .nav-link, .nav-item {
+    color: #000;
+  }
+  
+  .navbar-brand:hover, .nav-link:hover, .nav-item:hover {
+    color: #007bff;
+  }
+  .custom-submit {
+    color: black;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1.5rem;
+    color: #000;
+  }
+  
+  .card-header {
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+  }
+  
+  .card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Table styling */
+  .table-responsive {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+  }
+  
+  /* Form styling */
+  .form-control, .btn {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Heading styling */
+  h1, h2 {
+    color: white;
+  }
+  
